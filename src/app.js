@@ -13,6 +13,7 @@ import "react-dates/lib/css/_datepicker.css";
 const store = configureStore();
 
 console.log("initial", store.getState());
+console.log("testing!!!!!!!");
 
 // commented the below lines during the git video
 // const expenseOne = store.dispatch(
@@ -25,8 +26,8 @@ console.log("initial", store.getState());
 //   addExpense({ description: "Rent", amount: 109500 })
 // );
 
-console.log(expenseOne);
-console.log(expenseTwo);
+// console.log(expenseOne);
+// console.log(expenseTwo);
 
 console.log(store.getState());
 
